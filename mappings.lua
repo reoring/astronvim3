@@ -18,6 +18,7 @@ return {
       end,
       desc = "Pick to close",
     },
+    ["<leader>ux"] = { "<cmd>highlight Normal guibg=NONE<cr>", desc = "transparent" },
     -- tables with the `name` key will be registered with which-key if it's installed
     -- this is useful for naming menus
     ["<leader>b"] = { name = "Buffers" },
